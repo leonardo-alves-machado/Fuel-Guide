@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fuel Guide</string>
+    <string name="invalid_data_entered">Invalid data. Please insert only numbers greater than zero</string>
+    <string name="ethanol_better">Ethanol is better for you!</string>
+    <string name="gasoline_better">Gasoline is better for you!</string>
+    <string name="ethanol_value">Ethanol value</string>
+    <string name="ethanol_cons">Ethanol consumption (Km/L)</string>
+    <string name="gasoline_value">Gasoline value</string>
+    <string name="gasoline_cons">Gasoline consumption (Km/L)</string>
+    <string name="new_gas_station">Insert gas station data</string>
+    <string name="gas_station_name">Name</string>
+    <string name="gas_station_address">Address</string>
+    <string name="gas_station_fuel1_price">Gasoline price</string>
+    <string name="gas_station_fuel2_price">Ethanol price</string>
+    <string name="gas_station_button_submit">Submit\nGas Station</string>
+</resources>

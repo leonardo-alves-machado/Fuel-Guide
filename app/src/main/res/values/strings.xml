@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guia dos combustíveis</string>
+    <string name="invalid_data_entered">Dados inválidos. Insira números maiores que zero nos campos</string>
+    <string name="ethanol_better">O Álcool está mais vantajoso para você!</string>
+    <string name="gasoline_better">A Gasolina está mais vantajosa para você!</string>
+    <string name="ethanol_value">Valor do álcool</string>
+    <string name="ethanol_cons">Consumo com álcool (Km/L)</string>
+    <string name="gasoline_value">Valor da gasolina</string>
+    <string name="gasoline_cons">Consumo com gasolina (Km/L)</string>
+    <string name="new_gas_station">Insira os dados do posto</string>
+    <string name="gas_station_name">Nome</string>
+    <string name="gas_station_address">Endereço</string>
+    <string name="gas_station_fuel1_price">Preço da gasolina</string>
+    <string name="gas_station_fuel2_price">Preço do álcool</string>
+    <string name="gas_station_button_submit">Cadastrar\nPosto</string>
+</resources>

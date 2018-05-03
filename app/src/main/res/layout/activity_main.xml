@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="leoalvesmachado.com.fuelguide.MainActivity">
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/valorGasolina"
+        android:layout_alignRight="@+id/valorGasolina"
+        android:layout_alignEnd="@+id/valorGasolina"
+        android:layout_marginTop="25dp"
+        android:id="@+id/valorAlcool"
+        android:hint="3.50" />
+
+    <TextView
+        android:text="@string/ethanol_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAlcool"
+        android:layout_alignBaseline="@+id/valorAlcool"
+        android:layout_alignBottom="@+id/valorAlcool"
+        android:layout_alignLeft="@+id/labelGasolina"
+        android:layout_alignStart="@+id/labelGasolina" />
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/valorAlcool"
+        android:layout_alignRight="@+id/valorAlcool"
+        android:layout_alignEnd="@+id/valorAlcool"
+        android:layout_marginTop="25dp"
+        android:id="@+id/consumoGasolina"
+        android:hint="13.50" />
+
+    <TextView
+        android:text="@string/gasoline_cons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelConsumoGasolina"
+        android:layout_alignBaseline="@+id/consumoGasolina"
+        android:layout_alignBottom="@+id/consumoGasolina"
+        android:layout_alignLeft="@+id/labelGasolina"
+        android:layout_alignStart="@+id/labelGasolina" />
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/consumoGasolina"
+        android:layout_alignRight="@+id/consumoGasolina"
+        android:layout_alignEnd="@+id/consumoGasolina"
+        android:layout_marginTop="25dp"
+        android:id="@+id/consumoAlcool"
+        android:hint="9" />
+
+    <TextView
+        android:text="@string/ethanol_cons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelConsumoAlcool"
+        android:layout_alignBaseline="@+id/consumoAlcool"
+        android:layout_alignBottom="@+id/consumoAlcool"
+        android:layout_alignLeft="@+id/labelGasolina"
+        android:layout_alignStart="@+id/labelGasolina" />
+
+    <TextView
+        android:text="@string/gasoline_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelGasolina"
+        android:layout_alignBaseline="@+id/valorGasolina"
+        android:layout_alignBottom="@+id/valorGasolina"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/valorGasolina"
+        android:hint="4.00"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/consumoAlcool"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/calculate" />
+
+    <TextView
+        android:text="Insira os valores e pressione o botão para saber qual combustível mais vantajoso para você!"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultText"
+        android:layout_below="@+id/calculate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
